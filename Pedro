@@ -1,0 +1,7 @@
+repeat task.wait() until game:IsLoaded()
+
+local Link = game:HttpGet("https://raw.githubusercontent.com/Richeese4/PedroRoblox/main/roblox/"..game.GameId..".lua")
+
+if Link then        
+        loadstring(Link)()
+end
