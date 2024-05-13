@@ -1,0 +1,5 @@
+local Link = game:HttpGet("https://raw.githubusercontent.com/Rocheese4/PedroRoblox/main/roblox/"..game.PlaceId..".lua")
+
+if Link then        
+        loadstring(Link)()
+end
